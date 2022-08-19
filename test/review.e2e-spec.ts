@@ -1,6 +1,6 @@
 import * as request from 'supertest';
 import { Test } from '@nestjs/testing';
-import { AppModule } from './../src/app.module';
+import { AppModule } from '../src/app.module';
 import { INestApplication } from '@nestjs/common';
 import { CreateReviewDto } from 'src/review/dto/create-review.dto';
 import { connection, Types } from 'mongoose';
