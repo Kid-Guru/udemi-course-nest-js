@@ -13,7 +13,7 @@ jobs:
         uses: elgohr/Publish-Docker-Github-Action@main
         with:
           registry: docker.pkg.github.com
-          name: ghcr.io/Kid-Guru/udemi-course-nest-js/top-api
+          name: ghcr.io/kid-guru/udemi-course-nest-js/top-api
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           tags: "develop"
